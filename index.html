@@ -1,0 +1,23 @@
+<!DOCTYPE html> <!-- Define o tipo de documento como HTML5 -->
+<html lang="pt-br"> <!-- Define o idioma da página como português do Brasil -->
+<head>
+  <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a visualização da página em dispositivos móveis -->
+  <title>Carrinho de Compras</title> <!-- Define o título da página -->
+  <link rel="stylesheet" href="styles.css"> <!-- Importa o arquivo CSS para estilizar a página -->
+</head>
+<body>
+  <h1>Carrinho de Compras</h1> <!-- Título principal da página -->
+
+  <div id="container"> <!-- Div para conter os botões -->
+    <!-- Botão para adicionar produto, ao clicar chama a função adicionarProduto() -->
+    <button onclick="adicionarProduto()">Adicionar Produto</button> 
+    <!-- Botão para exibir carrinho, ao clicar chama a função exibirCarrinho() -->
+    <button onclick="exibirCarrinho()">Visualizar Carrinho</button> 
+    <!-- Botão para calcular o total, ao clicar chama a função calcularTotal() -->
+    <button onclick="calcularTotal()">Calcular Total</button>
+  </div>
+
+  <script src="index.js"></script> <!-- Importa o arquivo JavaScript -->
+</body>
+</html>

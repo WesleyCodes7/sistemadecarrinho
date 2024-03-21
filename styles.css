@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif; /* Define a fonte padrão para o corpo da página */
+  margin: 0; /* Remove margens padrão do corpo da página */
+  padding: 0; /* Remove padding padrão do corpo da página */
+  background-image: url('img/shopee.png'); /* Define uma imagem de fundo para o corpo da página */
+  background-size: cover; /* Redimensiona a imagem de fundo para cobrir todo o espaço disponível */
+  background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+}
+
+h1 {
+  text-align: center; /* Centraliza o texto */
+  color: #ffffff; /* Define a cor do texto como branco */
+}
+
+#container {
+  text-align: center; /* Centraliza o conteúdo dentro do contêiner */
+  margin-top: 20px; /* Adiciona uma margem superior de 20px */
+}
+
+button {
+  padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
+  margin: 0 10px; /* Adiciona margem ao redor do botão */
+  background-color: #823ec2; /* Define a cor de fundo do botão */
+  color: white; /* Define a cor do texto do botão como branco */
+  border: none; /* Remove a borda do botão */
+  border-radius: 4px; /* Adiciona cantos arredondados ao botão */
+  cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave de cor de fundo ao botão */
+}
+
+button:hover {
+  background-color: #5d2ad4; /* Altera a cor de fundo do botão ao passar o mouse sobre ele */
+}
+
+#cart {
+  width: 80%; /* Define a largura do carrinho como 80% da largura disponível */
+  margin: 0 auto; /* Centraliza o carrinho horizontalmente */
+  background-color: #fff; /* Define a cor de fundo do carrinho como branco */
+  border-radius: 10px; /* Adiciona cantos arredondados ao carrinho */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave ao redor do carrinho */
+}
